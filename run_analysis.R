@@ -1,4 +1,4 @@
-## This is code for getting, reading and tiding data.
+## This is code for getting, reading and tidying data.
 ##
 ## Getting and Cleaning Data Course Project
 
