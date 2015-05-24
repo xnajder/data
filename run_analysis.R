@@ -40,6 +40,9 @@ Data$activity <- factor(Data$activity, labels = activityLabels[,2])
 
 names(Data)<-gsub("^t", "time", names(Data))
 names(Data)<-gsub("^f", "frequency", names(Data))
+
+library(knitr)
+knit2html("codebook.Rmd");
 names(Data)<-gsub("Acc", "Accelerometer", names(Data))
 names(Data)<-gsub("Gyro", "Gyroscope", names(Data))
 names(Data)<-gsub("Mag", "Magnitude", names(Data))
