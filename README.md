@@ -9,4 +9,4 @@
 
  
 
-##### There is also an original data in thi repo
+##### There is also an original Samsung data
